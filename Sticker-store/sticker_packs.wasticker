@@ -1,0 +1,241 @@
+{
+    "ios_app_store_link" : "",
+    "android_play_store_link" : "",
+    "sticker_packs" : [
+    {
+        "identifier": "bitID",
+        "name": "myBitMoji",
+        "publisher": "prashant.s@netbiz.in",
+        "tray_image_file" : "logo.png",
+        "publisher_website" : "",
+        "privacy_policy_website" : "",
+        "license_agreement_website" : "",
+        "stickers": [
+        {
+            "image_file": "Sticker1.png",
+            "emojis": ["☺️","🙂"]
+        },
+        {
+            "image_file": "Sticker2.png",
+            "emojis": ["😫","😩"]
+        },
+        {
+            "image_file": "Sticker3.png",
+            "emojis": ["😣","😖"]
+        },
+        {
+            "image_file": "Sticker4.png",
+            "emojis": ["😞", "😔"]
+        },
+        {
+            "image_file": "Sticker5.png",
+            "emojis": ["😕","🙁"]
+        },
+        {
+            "image_file": "Sticker6.png",
+            "emojis": ["😥","😰"]
+        },
+        {
+            "image_file": "Sticker7.png",
+            "emojis": ["😌","😇"]
+        },
+        {
+            "image_file": "Sticker8.png",
+            "emojis": ["😧","🤕"]
+        }]
+    },
+    {
+        "identifier": "chatBub",
+        "name": "Chat Bubbles",
+        "publisher": "Prashant Salvi",
+        "tray_image_file" : "logo2.png",
+        "publisher_website" : "",
+        "privacy_policy_website" : "",
+        "license_agreement_website" : "",
+        "stickers": [
+        {
+        "image_file": "001.png",
+        "emojis": ["☺️","🙂"]
+        },
+        {
+        "image_file": "002.png",
+        "emojis": ["😫","😩"]
+        },
+        {
+        "image_file": "003.png",
+        "emojis": ["😣","😖"]
+        },
+        {
+        "image_file": "004.png",
+        "emojis": ["😞", "😔"]
+        },
+        {
+        "image_file": "005.png",
+        "emojis": ["😕","🙁"]
+        },
+        {
+        "image_file": "006.png",
+        "emojis": ["😥","😰"]
+        },
+        {
+        "image_file": "007.png",
+        "emojis": ["😌","😇"]
+        },
+        {
+        "image_file": "008.png",
+        "emojis": ["😧","🤕"]
+        },
+        {
+        "image_file": "009.png",
+        "emojis": ["😲","🤧"]
+        },
+        {
+        "image_file": "010.png",
+        "emojis": ["😤","😠"]
+        },
+        {
+        "image_file": "011.png",
+        "emojis": ["😡","🤬"]
+        },
+        {
+        "image_file": "012.png",
+        "emojis": ["🤔","🤭"]
+        },
+        {
+        "image_file": "013.png",
+        "emojis": ["🤔","🤭"]
+        }]
+    },
+    {
+        "identifier": "vDay",
+        "name": "Valentine's Day",
+        "publisher": "flaticon.com",
+        "tray_image_file" : "logo3.png",
+        "publisher_website" : "",
+        "privacy_policy_website" : "",
+        "license_agreement_website" : "",
+        "stickers": [
+        {
+        "image_file": "002-love-letter.png",
+        "emojis": ["😍","💌"]
+        },
+        {
+        "image_file": "004-gift.png",
+        "emojis": ["🎁","🛍"]
+        },
+        {
+        "image_file": "005-love-letter.png",
+        "emojis": ["💌","😘"]
+        },
+        {
+        "image_file": "006-cupid.png",
+        "emojis": ["💘", "💘"]
+        },
+        {
+        "image_file": "007-chocolate-box.png",
+        "emojis": ["🍫","🎁"]
+        },
+        {
+        "image_file": "008-valentines-day.png",
+        "emojis": ["❤️","💑"]
+        },
+        {
+        "image_file": "009-teddy-bear.png",
+        "emojis": ["🐻","❤️"]
+        },
+        {
+        "image_file": "010-light-bulb.png",
+        "emojis": ["💡","❤️"]
+        },
+        {
+        "image_file": "011-heart-lock.png",
+        "emojis": ["🔒","❤️"]
+        },
+        {
+        "image_file": "012-tickets.png",
+        "emojis": ["🎫","❤️"]
+        },
+        {
+        "image_file": "013-mailbox.png",
+        "emojis": ["📨","❤️"]
+        },
+        {
+        "image_file": "014-love-birds.png",
+        "emojis": ["🐦","❤️"]
+        },
+        {
+        "image_file": "015-key.png",
+        "emojis": ["🔑","❤️"]
+        },
+        {
+        "image_file": "016-smartphone.png",
+        "emojis": ["📱","❤️"]
+        },
+        {
+        "image_file": "017-strawberry.png",
+        "emojis": ["🍓","❤️"]
+        },
+        {
+        "image_file": "018-rose.png",
+        "emojis": ["🌹","❤️"]
+        },
+        {
+        "image_file": "019-wine.png",
+        "emojis": ["🍷","❤️"]
+        },
+        {
+        "image_file": "020-balloon.png",
+        "emojis": ["🎈","❤️"]
+        },
+        {
+        "image_file": "022-bouquet.png",
+        "emojis": ["💐","❤️"]
+        },
+        {
+        "image_file": "025-book.png",
+        "emojis": ["📒","❤️"]
+        },
+        {
+        "image_file": "026-bed.png",
+        "emojis": ["🛏","❤️"]
+        },
+        {
+        "image_file": "027-monitor.png",
+        "emojis": ["🖥","❤️"]
+        },
+        {
+        "image_file": "028-laptop.png",
+        "emojis": ["💻","❤️"]
+        },
+        {
+        "image_file": "030-cake.png",
+        "emojis": ["🎂","❤️"]
+        },
+        {
+        "image_file": "031-love-potion.png",
+        "emojis": ["⚗️","❤️"]
+        },
+        {
+        "image_file": "033-dinner.png",
+        "emojis": ["🍽","❤️"]
+        },
+        {
+        "image_file": "036-heart.png",
+        "emojis": ["💁‍♀️","❤️"]
+        },
+        {
+        "image_file": "038-photo-camera.png",
+        "emojis": ["📷","❤️"]
+        },
+        {
+        "image_file": "039-target.png",
+        "emojis": ["🎯","❤️"]
+        },
+        {
+        "image_file": "040-proposal.png",
+        "emojis": ["💍","❤️"]
+        }]
+        }
+    ]
+    
+}
