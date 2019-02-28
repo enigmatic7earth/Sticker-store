@@ -93,14 +93,8 @@
                                     <action selector="cancelPack:" destination="s2Y-d2-Rc9" eventType="touchUpInside" id="Kwf-F7-P45"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sticker pack name (unique)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Uh-Bn-rHx">
-                                <rect key="frame" x="125" y="70" width="205" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yc-ek-J2A">
-                                <rect key="frame" x="65" y="60" width="50" height="50"/>
+                                <rect key="frame" x="20" y="60" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Umm-OW-kJu"/>
                                     <constraint firstAttribute="width" constant="50" id="umx-FV-JmH"/>
@@ -113,27 +107,135 @@
                                 <color key="textColor" name="box-dark"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EOs-Rj-jY7">
+                                <rect key="frame" x="80" y="60" width="250" height="275"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sticker pack details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYq-Nd-B1b">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                        <color key="backgroundColor" name="box-light"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y6z-mH-5dN">
+                                        <rect key="frame" x="0.0" y="35" width="250" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Publisher's name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nHh-68-wlx">
+                                        <rect key="frame" x="0.0" y="70" width="250" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID (autogenerated)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rC5-qd-gP4">
+                                        <rect key="frame" x="0.0" y="105" width="250" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Websites" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nG-vl-r5V">
+                                        <rect key="frame" x="0.0" y="140" width="250" height="30"/>
+                                        <color key="backgroundColor" name="box-light"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Publisher's website" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yYG-pp-Dtj">
+                                        <rect key="frame" x="0.0" y="175" width="250" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Privacy policy website" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q63-mi-cni">
+                                        <rect key="frame" x="0.0" y="210" width="250" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="License agreement website" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fBo-3U-Zrb">
+                                        <rect key="frame" x="0.0" y="245" width="250" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ehx-16-9MG">
+                                <rect key="frame" x="16" y="374" width="343" height="273"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4DH-mg-Wu8">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Zmg-5j-KWZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sticker image requirements " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQm-Zm-UIb">
+                                <rect key="frame" x="20" y="345" width="191.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oli-yc-WwD">
+                                <rect key="frame" x="221.5" y="339" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="jEi-Sl-dQT"/>
+                                    <constraint firstAttribute="height" constant="30" id="lWV-If-0kV"/>
+                                </constraints>
+                                <state key="normal" image="info-icon"/>
+                                <connections>
+                                    <action selector="guidlinesInfo:" destination="s2Y-d2-Rc9" eventType="touchUpInside" id="hkk-qW-6i3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2Uh-Bn-rHx" firstAttribute="leading" secondItem="3yc-ek-J2A" secondAttribute="trailing" constant="10" id="03a-8Y-TXB"/>
-                            <constraint firstItem="2Uh-Bn-rHx" firstAttribute="centerY" secondItem="3yc-ek-J2A" secondAttribute="centerY" id="2qb-my-Uhv"/>
+                            <constraint firstItem="AQm-Zm-UIb" firstAttribute="top" secondItem="EOs-Rj-jY7" secondAttribute="bottom" constant="10" id="7bq-B8-jvx"/>
                             <constraint firstItem="94k-rK-2Gy" firstAttribute="centerX" secondItem="HHe-e8-MYf" secondAttribute="centerX" id="Mak-24-0pW"/>
-                            <constraint firstItem="3yc-ek-J2A" firstAttribute="top" secondItem="swz-UW-YYv" secondAttribute="top" constant="40" id="hgX-AT-wdg"/>
+                            <constraint firstItem="WMb-G0-yPD" firstAttribute="leading" secondItem="EOs-Rj-jY7" secondAttribute="trailing" constant="10" id="OcH-vI-L8N"/>
+                            <constraint firstItem="EOs-Rj-jY7" firstAttribute="leading" secondItem="3yc-ek-J2A" secondAttribute="trailing" constant="10" id="Ryd-r5-kv7"/>
+                            <constraint firstItem="3yc-ek-J2A" firstAttribute="leading" secondItem="swz-UW-YYv" secondAttribute="leading" constant="20" id="WD3-IU-Bg7"/>
+                            <constraint firstItem="Oli-yc-WwD" firstAttribute="centerY" secondItem="AQm-Zm-UIb" secondAttribute="centerY" id="Wvf-Ia-4UF"/>
+                            <constraint firstItem="Oli-yc-WwD" firstAttribute="leading" secondItem="AQm-Zm-UIb" secondAttribute="trailing" constant="10" id="dge-LE-AXg"/>
+                            <constraint firstItem="AQm-Zm-UIb" firstAttribute="leading" secondItem="swz-UW-YYv" secondAttribute="leading" constant="20" id="eMG-uh-3cA"/>
+                            <constraint firstItem="EOs-Rj-jY7" firstAttribute="top" secondItem="94k-rK-2Gy" secondAttribute="bottom" constant="5" id="ieK-wW-Ont"/>
                             <constraint firstItem="D1L-FO-U57" firstAttribute="leading" secondItem="swz-UW-YYv" secondAttribute="leading" constant="5" id="p7D-dI-aiA"/>
+                            <constraint firstItem="3yc-ek-J2A" firstAttribute="top" secondItem="94k-rK-2Gy" secondAttribute="bottom" constant="5" id="puM-Y5-J4u"/>
                             <constraint firstItem="94k-rK-2Gy" firstAttribute="top" secondItem="swz-UW-YYv" secondAttribute="top" constant="5" id="sP9-Ca-Fhd"/>
-                            <constraint firstItem="3yc-ek-J2A" firstAttribute="leading" secondItem="D1L-FO-U57" secondAttribute="trailing" constant="30" id="tlQ-qI-2GI"/>
                             <constraint firstItem="D1L-FO-U57" firstAttribute="top" secondItem="swz-UW-YYv" secondAttribute="top" id="vZn-u1-9Zw"/>
                             <constraint firstItem="swz-UW-YYv" firstAttribute="trailing" secondItem="WMb-G0-yPD" secondAttribute="trailing" constant="5" id="wTj-Ba-CRc"/>
                             <constraint firstItem="WMb-G0-yPD" firstAttribute="top" secondItem="swz-UW-YYv" secondAttribute="top" id="yL1-wa-BNi"/>
-                            <constraint firstItem="2Uh-Bn-rHx" firstAttribute="trailing" secondItem="WMb-G0-yPD" secondAttribute="leading" constant="-10" id="ybw-Cd-wSP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="swz-UW-YYv"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tHW-dn-GL0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1902" y="134"/>
+            <point key="canvasLocation" x="1901.5999999999999" y="133.5832083958021"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gFb-NC-4ga">
@@ -167,10 +269,14 @@
     <resources>
         <image name="add-icon" width="24" height="24"/>
         <image name="cancel-icon" width="170" height="170"/>
+        <image name="info-icon" width="160" height="160"/>
         <image name="save-icon" width="24" height="24"/>
         <image name="sticker-pack-icon" width="60" height="60"/>
         <namedColor name="box-dark">
             <color red="0.80784313725490198" green="0.48627450980392156" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="box-light">
+            <color red="0.93333333333333335" green="0.64313725490196083" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="whatsapp-green">
             <color red="0.32941176470588235" green="0.67843137254901964" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
