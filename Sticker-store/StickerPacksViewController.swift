@@ -121,7 +121,10 @@ class StickerPacksViewController: UIViewController,UITableViewDataSource, UITabl
         let cell: PackTableViewCell = tableView.dequeueReusableCell(withIdentifier: "StickerPackCell") as! PackTableViewCell
         cell.stickerPack = stickerPacks[indexPath.row]
         
-        let addButton: UIButton = UIButton(type: .contactAdd)
+        let addButton: UIButton = UIButton.init(type: .custom)
+        addButton.frame = CGRect.init(x: 0.0, y: 0.0, width: 32, height: 32)
+        addButton.setImage(UIImage.init(named: "whatsapp-icon"), for: .normal)
+        
         addButton.tag = indexPath.row
         addButton.isEnabled = Interoperability.canSend()
         addButton.addTarget(self, action: #selector(addButtonTapped(button:)), for: .touchUpInside)
