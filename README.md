@@ -4,3 +4,6 @@ An iOS app that helps users create WhatsApp sticker packs and use them.
 ## Screens
 ### Splash screen
 ![alt text](https://github.com/enigmatic7earth/Sticker-store/blob/master/Splash.png "Splash screen")
+
+### Main screen
+![alt text](https://github.com/enigmatic7earth/Sticker-store/blob/master/Mainscreen.png "Main screen")
