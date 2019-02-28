@@ -122,7 +122,6 @@ class StickerPacksViewController: UIViewController,UITableViewDataSource, UITabl
         cell.stickerPack = stickerPacks[indexPath.row]
         
         let addButton: UIButton = UIButton(type: .contactAdd)
-        addButton.setImage(UIImage.init(named: "whatsapp-icon"), for: .normal)
         addButton.tag = indexPath.row
         addButton.isEnabled = Interoperability.canSend()
         addButton.addTarget(self, action: #selector(addButtonTapped(button:)), for: .touchUpInside)
