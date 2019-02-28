@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F3A2821722266B3C00B44325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2821622266B3C00B44325 /* AppDelegate.swift */; };
-		F3A2821922266B3C00B44325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2821822266B3C00B44325 /* ViewController.swift */; };
+		F3A2821922266B3C00B44325 /* StickerPacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2821822266B3C00B44325 /* StickerPacksViewController.swift */; };
 		F3A2821C22266B3C00B44325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A2821A22266B3C00B44325 /* Main.storyboard */; };
 		F3A2821E22266B4E00B44325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A2821D22266B4E00B44325 /* Assets.xcassets */; };
 		F3A2822122266B4F00B44325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A2821F22266B4F00B44325 /* LaunchScreen.storyboard */; };
@@ -98,7 +98,7 @@
 /* Begin PBXFileReference section */
 		F3A2821322266B3C00B44325 /* Sticker-store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sticker-store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A2821622266B3C00B44325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3A2821822266B3C00B44325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A2821822266B3C00B44325 /* StickerPacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPacksViewController.swift; sourceTree = "<group>"; };
 		F3A2821B22266B3C00B44325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3A2821D22266B4E00B44325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A2822022266B4F00B44325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,60 +113,60 @@
 		F3A282312226B5B800B44325 /* StickerPackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
 		F3A282322226B5B800B44325 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
 		F3A282332226B5B800B44325 /* WebPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
-		F3A2823E2226B5FA00B44325 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
-		F3A2823F2226B5FA00B44325 /* 002-love-letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-love-letter.png"; sourceTree = "<group>"; };
-		F3A282402226B5FA00B44325 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
-		F3A282412226B5FA00B44325 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
-		F3A282422226B5FA00B44325 /* 004-gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004-gift.png"; sourceTree = "<group>"; };
-		F3A282432226B5FA00B44325 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
-		F3A282442226B5FA00B44325 /* 005-love-letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005-love-letter.png"; sourceTree = "<group>"; };
-		F3A282452226B5FA00B44325 /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
-		F3A282462226B5FA00B44325 /* 006-cupid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006-cupid.png"; sourceTree = "<group>"; };
-		F3A282472226B5FA00B44325 /* 006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006.png; sourceTree = "<group>"; };
-		F3A282482226B5FA00B44325 /* 007-chocolate-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007-chocolate-box.png"; sourceTree = "<group>"; };
-		F3A282492226B5FA00B44325 /* 007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 007.png; sourceTree = "<group>"; };
-		F3A2824A2226B5FA00B44325 /* 008-valentines-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008-valentines-day.png"; sourceTree = "<group>"; };
-		F3A2824B2226B5FA00B44325 /* 008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 008.png; sourceTree = "<group>"; };
-		F3A2824C2226B5FA00B44325 /* 009-teddy-bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009-teddy-bear.png"; sourceTree = "<group>"; };
-		F3A2824D2226B5FA00B44325 /* 009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 009.png; sourceTree = "<group>"; };
-		F3A2824E2226B5FA00B44325 /* 010-light-bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010-light-bulb.png"; sourceTree = "<group>"; };
-		F3A2824F2226B5FA00B44325 /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
-		F3A282502226B5FA00B44325 /* 011-heart-lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011-heart-lock.png"; sourceTree = "<group>"; };
-		F3A282512226B5FA00B44325 /* 011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 011.png; sourceTree = "<group>"; };
-		F3A282522226B5FA00B44325 /* 012-tickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012-tickets.png"; sourceTree = "<group>"; };
-		F3A282532226B5FA00B44325 /* 012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 012.png; sourceTree = "<group>"; };
-		F3A282542226B5FA00B44325 /* 013-mailbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013-mailbox.png"; sourceTree = "<group>"; };
-		F3A282552226B5FA00B44325 /* 013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 013.png; sourceTree = "<group>"; };
-		F3A282562226B5FA00B44325 /* 014-love-birds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014-love-birds.png"; sourceTree = "<group>"; };
-		F3A282572226B5FA00B44325 /* 015-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015-key.png"; sourceTree = "<group>"; };
-		F3A282582226B5FA00B44325 /* 016-smartphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016-smartphone.png"; sourceTree = "<group>"; };
-		F3A282592226B5FA00B44325 /* 017-strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017-strawberry.png"; sourceTree = "<group>"; };
-		F3A2825A2226B5FA00B44325 /* 018-rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "018-rose.png"; sourceTree = "<group>"; };
-		F3A2825B2226B5FA00B44325 /* 019-wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "019-wine.png"; sourceTree = "<group>"; };
-		F3A2825C2226B5FA00B44325 /* 020-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "020-balloon.png"; sourceTree = "<group>"; };
-		F3A2825D2226B5FA00B44325 /* 022-bouquet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "022-bouquet.png"; sourceTree = "<group>"; };
-		F3A2825E2226B5FA00B44325 /* 025-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "025-book.png"; sourceTree = "<group>"; };
-		F3A2825F2226B5FA00B44325 /* 026-bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "026-bed.png"; sourceTree = "<group>"; };
-		F3A282602226B5FA00B44325 /* 027-monitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "027-monitor.png"; sourceTree = "<group>"; };
-		F3A282612226B5FA00B44325 /* 028-laptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "028-laptop.png"; sourceTree = "<group>"; };
-		F3A282622226B5FA00B44325 /* 030-cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "030-cake.png"; sourceTree = "<group>"; };
-		F3A282632226B5FA00B44325 /* 031-love-potion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "031-love-potion.png"; sourceTree = "<group>"; };
-		F3A282642226B5FA00B44325 /* 033-dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "033-dinner.png"; sourceTree = "<group>"; };
-		F3A282652226B5FA00B44325 /* 036-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "036-heart.png"; sourceTree = "<group>"; };
-		F3A282662226B5FA00B44325 /* 038-photo-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "038-photo-camera.png"; sourceTree = "<group>"; };
-		F3A282672226B5FA00B44325 /* 039-target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "039-target.png"; sourceTree = "<group>"; };
-		F3A282682226B5FA00B44325 /* 040-proposal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "040-proposal.png"; sourceTree = "<group>"; };
-		F3A282692226B5FA00B44325 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		F3A2826A2226B5FA00B44325 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
-		F3A2826B2226B5FA00B44325 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
-		F3A2826C2226B5FA00B44325 /* Sticker1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker1.png; sourceTree = "<group>"; };
-		F3A2826D2226B5FA00B44325 /* Sticker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker2.png; sourceTree = "<group>"; };
-		F3A2826E2226B5FA00B44325 /* Sticker3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker3.png; sourceTree = "<group>"; };
-		F3A2826F2226B5FA00B44325 /* Sticker4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker4.png; sourceTree = "<group>"; };
-		F3A282702226B5FA00B44325 /* Sticker5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker5.png; sourceTree = "<group>"; };
-		F3A282712226B5FA00B44325 /* Sticker6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker6.png; sourceTree = "<group>"; };
-		F3A282722226B5FA00B44325 /* Sticker7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker7.png; sourceTree = "<group>"; };
-		F3A282732226B5FA00B44325 /* Sticker8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sticker8.png; sourceTree = "<group>"; };
+		F3A2823E2226B5FA00B44325 /* 001.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 001.png; sourceTree = "<group>"; };
+		F3A2823F2226B5FA00B44325 /* 002-love-letter.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "002-love-letter.png"; sourceTree = "<group>"; };
+		F3A282402226B5FA00B44325 /* 002.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 002.png; sourceTree = "<group>"; };
+		F3A282412226B5FA00B44325 /* 003.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 003.png; sourceTree = "<group>"; };
+		F3A282422226B5FA00B44325 /* 004-gift.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "004-gift.png"; sourceTree = "<group>"; };
+		F3A282432226B5FA00B44325 /* 004.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 004.png; sourceTree = "<group>"; };
+		F3A282442226B5FA00B44325 /* 005-love-letter.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "005-love-letter.png"; sourceTree = "<group>"; };
+		F3A282452226B5FA00B44325 /* 005.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 005.png; sourceTree = "<group>"; };
+		F3A282462226B5FA00B44325 /* 006-cupid.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "006-cupid.png"; sourceTree = "<group>"; };
+		F3A282472226B5FA00B44325 /* 006.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 006.png; sourceTree = "<group>"; };
+		F3A282482226B5FA00B44325 /* 007-chocolate-box.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "007-chocolate-box.png"; sourceTree = "<group>"; };
+		F3A282492226B5FA00B44325 /* 007.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 007.png; sourceTree = "<group>"; };
+		F3A2824A2226B5FA00B44325 /* 008-valentines-day.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "008-valentines-day.png"; sourceTree = "<group>"; };
+		F3A2824B2226B5FA00B44325 /* 008.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 008.png; sourceTree = "<group>"; };
+		F3A2824C2226B5FA00B44325 /* 009-teddy-bear.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "009-teddy-bear.png"; sourceTree = "<group>"; };
+		F3A2824D2226B5FA00B44325 /* 009.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 009.png; sourceTree = "<group>"; };
+		F3A2824E2226B5FA00B44325 /* 010-light-bulb.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "010-light-bulb.png"; sourceTree = "<group>"; };
+		F3A2824F2226B5FA00B44325 /* 010.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 010.png; sourceTree = "<group>"; };
+		F3A282502226B5FA00B44325 /* 011-heart-lock.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "011-heart-lock.png"; sourceTree = "<group>"; };
+		F3A282512226B5FA00B44325 /* 011.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 011.png; sourceTree = "<group>"; };
+		F3A282522226B5FA00B44325 /* 012-tickets.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "012-tickets.png"; sourceTree = "<group>"; };
+		F3A282532226B5FA00B44325 /* 012.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 012.png; sourceTree = "<group>"; };
+		F3A282542226B5FA00B44325 /* 013-mailbox.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "013-mailbox.png"; sourceTree = "<group>"; };
+		F3A282552226B5FA00B44325 /* 013.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 013.png; sourceTree = "<group>"; };
+		F3A282562226B5FA00B44325 /* 014-love-birds.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "014-love-birds.png"; sourceTree = "<group>"; };
+		F3A282572226B5FA00B44325 /* 015-key.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "015-key.png"; sourceTree = "<group>"; };
+		F3A282582226B5FA00B44325 /* 016-smartphone.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "016-smartphone.png"; sourceTree = "<group>"; };
+		F3A282592226B5FA00B44325 /* 017-strawberry.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "017-strawberry.png"; sourceTree = "<group>"; };
+		F3A2825A2226B5FA00B44325 /* 018-rose.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "018-rose.png"; sourceTree = "<group>"; };
+		F3A2825B2226B5FA00B44325 /* 019-wine.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "019-wine.png"; sourceTree = "<group>"; };
+		F3A2825C2226B5FA00B44325 /* 020-balloon.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "020-balloon.png"; sourceTree = "<group>"; };
+		F3A2825D2226B5FA00B44325 /* 022-bouquet.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "022-bouquet.png"; sourceTree = "<group>"; };
+		F3A2825E2226B5FA00B44325 /* 025-book.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "025-book.png"; sourceTree = "<group>"; };
+		F3A2825F2226B5FA00B44325 /* 026-bed.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "026-bed.png"; sourceTree = "<group>"; };
+		F3A282602226B5FA00B44325 /* 027-monitor.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "027-monitor.png"; sourceTree = "<group>"; };
+		F3A282612226B5FA00B44325 /* 028-laptop.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "028-laptop.png"; sourceTree = "<group>"; };
+		F3A282622226B5FA00B44325 /* 030-cake.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "030-cake.png"; sourceTree = "<group>"; };
+		F3A282632226B5FA00B44325 /* 031-love-potion.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "031-love-potion.png"; sourceTree = "<group>"; };
+		F3A282642226B5FA00B44325 /* 033-dinner.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "033-dinner.png"; sourceTree = "<group>"; };
+		F3A282652226B5FA00B44325 /* 036-heart.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "036-heart.png"; sourceTree = "<group>"; };
+		F3A282662226B5FA00B44325 /* 038-photo-camera.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "038-photo-camera.png"; sourceTree = "<group>"; };
+		F3A282672226B5FA00B44325 /* 039-target.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "039-target.png"; sourceTree = "<group>"; };
+		F3A282682226B5FA00B44325 /* 040-proposal.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "040-proposal.png"; sourceTree = "<group>"; };
+		F3A282692226B5FA00B44325 /* logo.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = logo.png; sourceTree = "<group>"; };
+		F3A2826A2226B5FA00B44325 /* logo2.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = logo2.png; sourceTree = "<group>"; };
+		F3A2826B2226B5FA00B44325 /* logo3.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = logo3.png; sourceTree = "<group>"; };
+		F3A2826C2226B5FA00B44325 /* Sticker1.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker1.png; sourceTree = "<group>"; };
+		F3A2826D2226B5FA00B44325 /* Sticker2.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker2.png; sourceTree = "<group>"; };
+		F3A2826E2226B5FA00B44325 /* Sticker3.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker3.png; sourceTree = "<group>"; };
+		F3A2826F2226B5FA00B44325 /* Sticker4.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker4.png; sourceTree = "<group>"; };
+		F3A282702226B5FA00B44325 /* Sticker5.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker5.png; sourceTree = "<group>"; };
+		F3A282712226B5FA00B44325 /* Sticker6.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker6.png; sourceTree = "<group>"; };
+		F3A282722226B5FA00B44325 /* Sticker7.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker7.png; sourceTree = "<group>"; };
+		F3A282732226B5FA00B44325 /* Sticker8.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = Sticker8.png; sourceTree = "<group>"; };
 		F3A282AB2226B62B00B44325 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
 		F3A282AC2226B62B00B44325 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
 		F3A282AD2226B62B00B44325 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
@@ -236,7 +236,7 @@
 				F3A2823D2226B5FA00B44325 /* SampleStickers */,
 				F3A282AA2226B62B00B44325 /* WebP */,
 				F3A2821622266B3C00B44325 /* AppDelegate.swift */,
-				F3A2821822266B3C00B44325 /* ViewController.swift */,
+				F3A2821822266B3C00B44325 /* StickerPacksViewController.swift */,
 				F3A282282226A82000B44325 /* PackCreatorVController.swift */,
 				F3A282D62226C10900B44325 /* PackTableViewCell.swift */,
 				F3A282D72226C10900B44325 /* PackTableViewCell.xib */,
@@ -487,7 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A2821922266B3C00B44325 /* ViewController.swift in Sources */,
+				F3A2821922266B3C00B44325 /* StickerPacksViewController.swift in Sources */,
 				F3A2823C2226B5B800B44325 /* WebPManager.swift in Sources */,
 				F3A282382226B5B800B44325 /* StickerCell.swift in Sources */,
 				F3A282362226B5B800B44325 /* Limits.swift in Sources */,

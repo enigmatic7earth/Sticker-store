@@ -38,17 +38,36 @@
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="BZE-c7-Hvy">
+                        <rect key="frame" x="16" y="45" width="268" height="119"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Jrc-h2-BKC">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="BZE-c7-Hvy" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="2Bo-5D-P0M"/>
                     <constraint firstItem="nU3-a2-NpR" firstAttribute="leading" secondItem="sI9-i5-mVV" secondAttribute="trailing" constant="5" id="2Sy-wR-yqJ"/>
+                    <constraint firstItem="BZE-c7-Hvy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="5nD-bh-INK"/>
+                    <constraint firstItem="BZE-c7-Hvy" firstAttribute="top" secondItem="sI9-i5-mVV" secondAttribute="bottom" constant="10" id="Ewi-gs-1Rd"/>
                     <constraint firstItem="sI9-i5-mVV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="cUI-f6-L8V"/>
                     <constraint firstItem="sI9-i5-mVV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="chO-pZ-NG8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="BZE-c7-Hvy" secondAttribute="trailing" constant="20" id="cr7-ZS-WF9"/>
                     <constraint firstItem="iLp-fJ-eiF" firstAttribute="leading" secondItem="nU3-a2-NpR" secondAttribute="trailing" constant="5" id="h2q-Ix-cWb"/>
                     <constraint firstItem="nU3-a2-NpR" firstAttribute="centerY" secondItem="sI9-i5-mVV" secondAttribute="centerY" id="p4p-gY-ofH"/>
                     <constraint firstItem="iLp-fJ-eiF" firstAttribute="centerY" secondItem="sI9-i5-mVV" secondAttribute="centerY" id="y7D-A1-4uc"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="stickerPackCollectionView" destination="BZE-c7-Hvy" id="8W4-5U-wvu"/>
+                <outlet property="stickerPackCreatorLabel" destination="iLp-fJ-eiF" id="fDC-Jk-ETc"/>
+                <outlet property="stickerPackTitleLabel" destination="sI9-i5-mVV" id="bOo-UZ-gom"/>
+            </connections>
             <point key="canvasLocation" x="132.80000000000001" y="98.50074962518741"/>
         </tableViewCell>
     </objects>
