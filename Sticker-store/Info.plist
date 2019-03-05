@@ -49,5 +49,7 @@
 	<array>
 		<string>whatsapp</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow app to pick sticker images from gallery</string>
 </dict>
 </plist>
